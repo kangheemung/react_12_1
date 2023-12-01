@@ -1,11 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import StateTutorial from './components/StateTutorial';
+import Input from './components/Input';
+import ReducerRutolrial from './components/ReducerRutolrial';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <StateTutorial />
+        <Input />
+        
+        <ReducerRutolrial />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
